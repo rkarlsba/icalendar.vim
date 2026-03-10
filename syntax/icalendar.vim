@@ -44,11 +44,11 @@ IcalHiLink	icalObjectType	Type
 IcalHiLink	icalDate	String
 IcalHiLink	icalParameter	Comment
 IcalHiLink	icalSetValue	Special
-IcalHiLink	icalCustom	Error
+IcalHiLink	icalCustom	PreProc
 
 delcommand IcalHiLink
   
 let b:current_syntax = "icalendar"
 
-"EOF vim: tw=78:ft=vim:ts=8
+"EOF vim: tw=78:ft=vim:ts=8:noet
 
